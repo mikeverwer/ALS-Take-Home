@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment variables / secrets (Discord webhook URL, etc.)
+.env
+
+# Runtime state / data the agent generates
+state.json
+seen_ids.json
+*.db
+*.sqlite3
+logs/
+*.log
+
+# ML model caches (can get large, shouldn't be committed)
+.cache/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
