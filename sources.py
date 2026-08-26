@@ -4,7 +4,10 @@ import requests
 class PostSource(ABC):
     @abstractmethod
     def get_new_posts(self) -> list[dict]:
-        """Return posts newer than what's already been seen."""
+        """
+        Return all posts currently available from this source (newest first).
+        Deduplication needs to be handled by the caller.
+        """
         ...
 
 class MockSource(PostSource):
@@ -13,24 +16,25 @@ class MockSource(PostSource):
         self.account = account
 
     def get_new_posts(self) -> list[dict]:
-        resp = requests.get(f"{self.base_url}/api/v1/accounts/{self.account}/statuses")
+        resp = requests.get(
+            f"{self.base_url}/api/v1/accounts/{self.account}/statuses",
+            timeout=5,
+            )
         resp.raise_for_status()
         return resp.json()
 
 class TruthSocialSource(PostSource):
     """
-    NOT production-ready. Documents the intended real integration based on
-    reverse-engineering findings (see README) — Mastodon-shaped endpoint,
-    likely requires an authenticated session. Left unimplemented/stubbed
-    given the assignment's 72-hour window; see README's ingestion trade-off
-    discussion for why MockSource is what's actually demoed.
+    NOT production ready. This class documents the intended real integration
+    based on reverse-engineering. TruthSocial is a Mastadon fork, and so 
+    shares the same shape of endpoint, which MockSource imitates. 
+    The class is intentionally left unimplemented due to time constraints.
     """
     def __init__(self, account_handle="realDonaldTrump"):
         self.account_handle = account_handle
+
+    def get_new_posts(self) -> list[dict]:
         raise NotImplementedError(
             "Requires authenticated session against truthsocial.com's "
             "Mastodon-derived API — see README Part 1 for investigation notes."
         )
-
-    def get_new_posts(self) -> list[dict]:
-        ...
