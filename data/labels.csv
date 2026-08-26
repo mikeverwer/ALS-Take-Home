@@ -1,126 +1,126 @@
 post_id,content,is_stock_related,tickers,alt_candidates,notes
-1,"Watching $TSLA closely today, could be a big move.",1,TSLA,,
-2,"$AAPL earnings call is tomorrow, expecting strong numbers.",1,AAPL,,
-3,Just picked up more shares of $NVDA on the dip.,1,NVDA,,
-4,"$BA has been struggling all year, still holding though.",1,BA,,
-5,$AMZN prime day numbers looked solid this quarter.,1,AMZN,,
-6,Anyone else watching $GME today? Wild volume.,1,GME,,
-7,$MSFT cloud growth keeps surprising everyone.,1,MSTF,,
-8,Sold half my $DJT position this morning.,,DJT,,
-9,$F truck sales are up according to the latest report.,,F,,
-10,"$KO dividend increase announced today, nice to see.",,KO,,
-11,$NFLX subscriber growth beat expectations again.,,NFLX,,
-12,Loaded up on $DIS calls ahead of earnings.,,DIS,,
-13,$XOM benefiting from the recent oil price jump.,,XOM,,
-14,$PFE getting a lot of attention after the announcement.,,PFE,,
-15,"$JPM posted a strong quarter, financials looking healthy.",,JPM,,
-16,"TSLA delivery numbers just dropped, higher than expected.",,TSLA,,
-17,"NVDA keeps hitting new highs, incredible run.",,NVDA,,
-18,AAPL is rumored to announce a new product line next month.,,AAPL,,
-19,BA still dealing with production delays apparently.,,BA,,
-20,AMZN warehouse workers voted on new terms this week.,,AMZN,,
-21,MSFT just rolled out a big update to their cloud platform.,,MSFT,,
-22,NFLX password sharing crackdown seems to be working.,,NFLX,,
-23,DIS parks reported record attendance this summer.,,DIS,,
-24,GME short interest is climbing again.,,GME,,
-25,KO announced a new flavor launching in stores soon.,,KO,,
-26,Tesla just opened a new factory overseas.,,TLSA,,
-27,Boeing announced layoffs in their commercial division.,,BO,,
-28,Apple Inc. is facing another lawsuit over patent claims.,,AAPL,,
-29,Amazon is expanding same-day delivery to more cities.,,AMZN,,
-30,Microsoft is investing heavily in AI infrastructure.,,MSFT,,
-31,Netflix renewed their biggest show for two more seasons.,,NFLX,,
-32,Disney is raising ticket prices at the parks again.,,DIS,,
-33,Coca-Cola launched a new marketing campaign today.,,KO,,
-34,JPMorgan hired a new chief economist this week.,,JPM,,
-35,Pfizer is starting trials on a new treatment.,,PFE,,
-36,Exxon Mobil reported record profits this quarter.,,XOM,,
-37,Ford is recalling several truck models.,,F,,
-38,Nvidia's new chip announcement caused quite a stir.,,NVDA,,
-39,Trump Media had a rough week in the markets.,,DJT,,
-40,GameStop fans are still holding strong apparently.,,GME,,
-41,The electric car company just posted record deliveries.,,TLSA,RIVN|BYDDF,Ambiguous - Clearly about a stock but TLSA is a best guess
-42,That streaming giant everyone loves just raised prices again.,,NFLX,WBD|DIS|AMZN,"Ambiguous - Clearly about a stock but NFLX is a best guess. Could plausibly be HBO Max (WBD), Disney+ (DIS), Amazon Prime (AMZN)"
-43,My social media company had record engagement this month.,,DJT,,"Ambiguous - Given the user is meant to be realDonaldTrump, high probability of referencing DJT"
-44,The search engine giant is under new antitrust scrutiny.,,GOOGL,,Ambiguous - Could be MSFT
-45,The plane maker is dealing with more quality control issues.,,BO,,
-46,The coffee chain on every corner just announced new stores.,,SBUX,,Ambiguous but high probability
-47,The soda company with the polar bear ads had a great quarter.,,KO,,
-48,The smartphone maker everyone copies is releasing something new.,,AAPL,,"Ambiguous - Best guess, could be any smartphone company, eg: SSNLF (Samsung)"
-49,The truck company from Detroit just posted their numbers.,,F,,
-50,The chip maker behind all these AI graphics cards is booming.,,NVDA,,
-51,"A great day for the team, everyone worked so hard.",,,,
-52,IT was a total disaster from start to finish.,,,,
-53,"ON second thought, maybe I should reconsider the plan.",,,,
-54,ALL of my friends are coming to the party this weekend.,,,,
-55,ARE we still meeting tomorrow at noon?,,,,
-56,CAN you believe how hot it got today?,,,,
-57,"GOOD things come to those who wait, as they say.",,,,
-58,SO many people showed up to the rally today.,,,,
-59,"NOW is the time to make a decision, no more waiting.",,,,
-60,"REAL talk, this has been a tough week for everyone.",,,,
-61,FAST forward a year and everything looks different.,,,,
-62,"TWO of my kids graduated this spring, so proud.",,,,
-63,"Had an apple with my lunch today, so refreshing.",,,,
-64,Picked some fresh apples from the orchard this weekend.,,,,
-65,The target on the wall needs to be moved a few feet.,,,,
-66,We hit our target for the fundraiser this year.,,,,
-67,That shirt has a really nice chevron pattern on it.,,,,
-68,The general store downtown just got new inventory.,,,,
-69,My favorite color is orange these days.,,,,
-70,The three musketeers is one of my favorite old movies.,,,,
-71,We planted a new apple tree in the backyard.,,,,
-72,The paper plane flew across the whole room.,,,,
-73,"The stock market is rigged against everyday Americans, always has been.",,,,
-74,People are worried about their retirement accounts and the stock market lately.,,,,
-75,The stock market doesn't reflect how regular families are actually doing.,,,,
-76,Wall Street and the stock market only benefit the wealthy few.,,,,
-77,Everyone talks about the stock market but ignores main street.,,,,
-78,"The stock market had a wild swing today, nobody really knows why.",,,,
-79,Some experts say the stock market is due for a correction soon.,,,,
-80,The stock market numbers don't tell the whole story about the economy.,,,,
-81,The IT department is finally fixing the server issue.,,,,
-82,I need to find an ATM machine before the store closes.,,,,
-83,The CEO of the company gave a speech at the conference.,,,,
-84,My GPA this semester was actually pretty good.,,,,
-85,"The DMV line was so long this morning, unbelievable.",,,,
-86,Our HR department sent out new policy guidelines today.,,,,
-87,The FAQ page answered most of my questions.,,,,
-88,I finally got my ID renewed after months of putting it off.,,,,
-89,"Beautiful sunset over the coast tonight, wish everyone could see it.",,,,
-90,"Just finished a great workout, feeling energized.",,,,
-91,"Watching the game tonight with some friends, should be fun.",,,,
-92,"The weather has been incredible this week, perfect for a walk.",,,,
-93,"Spent the afternoon fishing at the lake, caught a few good ones.",,,,
-94,"Just got back from a long road trip, exhausted but happy.",,,,
-95,The new season of my favorite show just dropped.,,,,
-96,"Had a great dinner with family tonight, lots of laughs.",,,,
-97,Working on some home renovation projects this weekend.,,,,
-98,The kids had a blast at the amusement park today.,,,,
-99,"Reading a really good book right now, highly recommend it.",,,,
-100,"Went for a long hike this morning, the views were incredible.",,,,
-101,"Election season is heating up again, lots of debates coming.",,,,
-102,The local school is hosting a big fundraiser next month.,,,,
-103,Traffic was brutal on the highway this morning.,,,,
-104,"Cooking a big family recipe tonight, smells amazing already.",,,,
-105,"Just adopted a new puppy, he's already the best.",,,,
-106,The concert last night was absolutely incredible.,,,,
-107,Spent the day volunteering at the community center.,,,,
-108,"The football season opener is this weekend, can't wait.",,,,
-109,"Finally finished painting the house, looks so much better.",,,,
-110,"Grabbed coffee with an old friend this morning, great catch up.",,,,
-111,The garden is finally starting to bloom after all that rain.,,,,
-112,Watched a documentary about space exploration last night.,,,,
-113,The farmers market downtown had amazing produce today.,,,,
-114,"Comparing $TSLA and $F right now, hard to decide which to buy more of.",,,,
-115,"Both $AAPL and $MSFT reported earnings this week, big day for tech.",,,,
-116,Watching $NVDA and $AMD closely as chip demand keeps rising.,,,,
-117,$KO and $PEP both raised prices again this quarter.,,,,
-118,Torn between $BA and $DIS for a new position this month.,,,,
-119,This platform just hit a new record for daily active users.,,,,
-120,So proud of how far this platform has come since launch.,,,,
-121,"The app just rolled out a big update, works so much smoother now.",,,,
-122,More people are joining this platform every single day.,,,,
-123,"Bitcoin had a wild swing again today, up and down all week.",,,,
-124,Crypto twitter is buzzing about the latest rally.,,,,
-125,Everyone on my feed is talking about the next big crypto coin.,,,,
+1,"Watching $TSLA closely today, could be a big move.",1,TSLA,,Unambiguous - Ticker specified
+2,"$AAPL earnings call is tomorrow, expecting strong numbers.",1,AAPL,,Unambiguous - Ticker specified
+3,Just picked up more shares of $NVDA on the dip.,1,NVDA,,Unambiguous - Ticker specified
+4,"$BA has been struggling all year, still holding though.",1,BA,,Unambiguous - Ticker specified
+5,$AMZN prime day numbers looked solid this quarter.,1,AMZN,,Unambiguous - Ticker specified
+6,Anyone else watching $GME today? Wild volume.,1,GME,,Unambiguous - Ticker specified
+7,$MSFT cloud growth keeps surprising everyone.,1,MSTF,,Unambiguous - Ticker specified
+8,Sold half my $DJT position this morning.,1,DJT,,Unambiguous - Ticker specified
+9,$F truck sales are up according to the latest report.,1,F,,Unambiguous - Ticker specified
+10,"$KO dividend increase announced today, nice to see.",1,KO,,Unambiguous - Ticker specified
+11,$NFLX subscriber growth beat expectations again.,1,NFLX,,Unambiguous - Ticker specified
+12,Loaded up on $DIS calls ahead of earnings.,1,DIS,,Unambiguous - Ticker specified
+13,$XOM benefiting from the recent oil price jump.,1,XOM,,Unambiguous - Ticker specified
+14,$PFE getting a lot of attention after the announcement.,1,PFE,,Unambiguous - Ticker specified
+15,"$JPM posted a strong quarter, financials looking healthy.",1,JPM,,Unambiguous - Ticker specified
+16,"TSLA delivery numbers just dropped, higher than expected.",1,TSLA,,Unambiguous - Ticker specified (without $)
+17,"NVDA keeps hitting new highs, incredible run.",1,NVDA,,Unambiguous - Ticker specified (without $)
+18,AAPL is rumored to announce a new product line next month.,1,AAPL,,Unambiguous - Ticker specified (without $)
+19,BA still dealing with production delays apparently.,1,BA,,Unambiguous - Ticker specified (without $)
+20,AMZN warehouse workers voted on new terms this week.,1,AMZN,,Unambiguous - Ticker specified (without $)
+21,MSFT just rolled out a big update to their cloud platform.,1,MSFT,,Unambiguous - Ticker specified (without $)
+22,NFLX password sharing crackdown seems to be working.,1,NFLX,,Unambiguous - Ticker specified (without $)
+23,DIS parks reported record attendance this summer.,1,DIS,,Unambiguous - Ticker specified (without $)
+24,GME short interest is climbing again.,1,GME,,Unambiguous - Ticker specified (without $)
+25,KO announced a new flavor launching in stores soon.,1,KO,,Unambiguous - Ticker specified (without $)
+26,Tesla just opened a new factory overseas.,1,TSLA,,Unambiguous - Company name mentioned
+27,Boeing announced layoffs in their commercial division.,1,BO,,Unambiguous - Company name mentioned
+28,Apple Inc. is facing another lawsuit over patent claims.,1,AAPL,,Unambiguous - Company name mentioned
+29,Amazon is expanding same-day delivery to more cities.,1,AMZN,,Unambiguous - Company name mentioned
+30,Microsoft is investing heavily in AI infrastructure.,1,MSFT,,Unambiguous - Company name mentioned
+31,Netflix renewed their biggest show for two more seasons.,1,NFLX,,Unambiguous - Company name mentioned
+32,Disney is raising ticket prices at the parks again.,1,DIS,,Unambiguous - Company name mentioned
+33,Coca-Cola launched a new marketing campaign today.,1,KO,,Unambiguous - Company name mentioned
+34,JPMorgan hired a new chief economist this week.,1,JPM,,Unambiguous - Company name mentioned
+35,Pfizer is starting trials on a new treatment.,1,PFE,,Unambiguous - Company name mentioned
+36,Exxon Mobil reported record profits this quarter.,1,XOM,,Unambiguous - Company name mentioned
+37,Ford is recalling several truck models.,1,F,,Unambiguous - Company name mentioned
+38,Nvidia's new chip announcement caused quite a stir.,1,NVDA,,Unambiguous - Company name mentioned
+39,Trump Media had a rough week in the markets.,1,DJT,,Unambiguous - Company name mentioned
+40,GameStop fans are still holding strong apparently.,1,GME,,Unambiguous - Company name mentioned
+41,The electric car company just posted record deliveries.,1,TSLA,RIVN|BYDDF,Ambiguous - Clearly about a stock but TSLA is a best guess
+42,That streaming giant everyone loves just raised prices again.,1,NFLX,WBD|DIS|AMZN,"Ambiguous - Clearly about a stock but NFLX is a best guess. Could plausibly be HBO Max (WBD), Disney+ (DIS), Amazon Prime (AMZN)"
+43,My social media company had record engagement this month.,1,DJT,,"Given the user is meant to be realDonaldTrump, high probability of referencing DJT"
+44,The search engine giant is under new antitrust scrutiny.,1,GOOGL,MSFT,Ambiguous - Could be MSFT
+45,The plane maker is dealing with more quality control issues.,1,BO,AIR,"Ambiguous - Could easily mean Airbus, but Boeing is more likely since it is an American company"
+46,The coffee chain on every corner just announced new stores.,1,SBUX,,Ambiguous but high probability
+47,The soda company with the polar bear ads had a great quarter.,1,KO,,Unambiguous - Clear implication
+48,The smartphone maker everyone copies is releasing something new.,1,AAPL,,"Ambiguous - Best guess, could be any smartphone company, eg: SSNLF (Samsung)"
+49,The truck company from Detroit just posted their numbers.,1,F,,Unambiguous - Clear implication
+50,The chip maker behind all these AI graphics cards is booming.,1,NVDA,,Unambiguous - Clear implication
+51,"A great day for the team, everyone worked so hard.",0,,,Common word 'a' overlaps with ticker A (Agilent) but plainly non-stock context
+52,IT was a total disaster from start to finish.,0,,,Common word 'it' overlaps with ticker IT (Gartner) but plainly non-stock context
+53,"ON second thought, maybe I should reconsider the plan.",0,,,Common word 'on' overlaps with ticker ON (ON Semiconductor) but plainly non-stock context
+54,ALL of my friends are coming to the party this weekend.,0,,,Common word 'all' overlaps with ticker ALL (Allstate) but plainly non-stock context
+55,ARE we still meeting tomorrow at noon?,0,,,Common word 'are' overlaps with ticker ARE (Alexandria Real Estate Equities) but plainly non-stock context
+56,CAN you believe how hot it got today?,0,,,Common word 'can' resembles a ticker-style token but plainly non-stock context
+57,"GOOD things come to those who wait, as they say.",0,,,Common word 'good' overlaps with ticker GOOD (Gladstone Commercial) but plainly non-stock context
+58,SO many people showed up to the rally today.,0,,,Common word 'so' overlaps with ticker SO (Southern Company) but plainly non-stock context
+59,"NOW is the time to make a decision, no more waiting.",0,,,Common word 'now' overlaps with ticker NOW (ServiceNow) but plainly non-stock context
+60,"REAL talk, this has been a tough week for everyone.",0,,,Common word 'real' overlaps with ticker REAL (The RealReal) but plainly non-stock context
+61,FAST forward a year and everything looks different.,0,,,Common word 'fast' overlaps with ticker FAST (Fastenal) but plainly non-stock context
+62,"TWO of my kids graduated this spring, so proud.",0,,,Common word 'two' overlaps with ticker TWO (Two Harbors Investment) but plainly non-stock context
+63,"Had an apple with my lunch today, so refreshing.",0,,,"'apple' refers to the fruit, not AAPL"
+64,Picked some fresh apples from the orchard this weekend.,0,,,"'apples' refers to the fruit, not AAPL"
+65,The target on the wall needs to be moved a few feet.,0,,,"'target' used as a generic goal/object, not TGT"
+66,We hit our target for the fundraiser this year.,0,,,"'target' used as a generic goal, not TGT"
+67,That shirt has a really nice chevron pattern on it.,0,,,"'chevron' refers to the V-shaped pattern, not CVX"
+68,The general store downtown just got new inventory.,0,,,"'general store' is a generic retail term, not a specific company"
+69,My favorite color is orange these days.,0,,,"'orange' refers to the color, not a company"
+70,The three musketeers is one of my favorite old movies.,0,,,"Movie reference, not a stock mention"
+71,We planted a new apple tree in the backyard.,0,,,"'apple tree' refers to the fruit tree, not AAPL"
+72,The paper plane flew across the whole room.,0,,,"'paper plane' is a toy, not a stock mention"
+73,"The stock market is rigged against everyday Americans, always has been.",0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+74,People are worried about their retirement accounts and the stock market lately.,0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+75,The stock market doesn't reflect how regular families are actually doing.,0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+76,Wall Street and the stock market only benefit the wealthy few.,0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+77,Everyone talks about the stock market but ignores main street.,0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+78,"The stock market had a wild swing today, nobody really knows why.",0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+79,Some experts say the stock market is due for a correction soon.,0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+80,The stock market numbers don't tell the whole story about the economy.,0,,,"Generic 'stock market' commentary, no specific company/ticker named - designed false positive"
+81,The IT department is finally fixing the server issue.,0,,,"'IT' = information technology department, not a ticker mention"
+82,I need to find an ATM machine before the store closes.,0,,,"'ATM' = cash machine, not a ticker mention"
+83,The CEO of the company gave a speech at the conference.,0,,,"'CEO' generic reference, no company named"
+84,My GPA this semester was actually pretty good.,0,,,"'GPA' = grade point average, not a ticker mention"
+85,"The DMV line was so long this morning, unbelievable.",0,,,"'DMV' = government agency, not a ticker mention"
+86,Our HR department sent out new policy guidelines today.,0,,,"'HR' = human resources, not a ticker mention"
+87,The FAQ page answered most of my questions.,0,,,"'FAQ' = frequently asked questions, not a ticker mention"
+88,I finally got my ID renewed after months of putting it off.,0,,,"'ID' = identification, not a ticker mention"
+89,"Beautiful sunset over the coast tonight, wish everyone could see it.",0,,,"Unrelated post, no company/stock reference"
+90,"Just finished a great workout, feeling energized.",0,,,"Unrelated post, no company/stock reference"
+91,"Watching the game tonight with some friends, should be fun.",0,,,"Unrelated post, no company/stock reference"
+92,"The weather has been incredible this week, perfect for a walk.",0,,,"Unrelated post, no company/stock reference"
+93,"Spent the afternoon fishing at the lake, caught a few good ones.",0,,,"Unrelated post, no company/stock reference"
+94,"Just got back from a long road trip, exhausted but happy.",0,,,"Unrelated post, no company/stock reference"
+95,The new season of my favorite show just dropped.,0,,,"Unrelated post, no company/stock reference"
+96,"Had a great dinner with family tonight, lots of laughs.",0,,,"Unrelated post, no company/stock reference"
+97,Working on some home renovation projects this weekend.,0,,,"Unrelated post, no company/stock reference"
+98,The kids had a blast at the amusement park today.,0,,,"Unrelated post, no company/stock reference"
+99,"Reading a really good book right now, highly recommend it.",0,,,"Unrelated post, no company/stock reference"
+100,"Went for a long hike this morning, the views were incredible.",0,,,"Unrelated post, no company/stock reference"
+101,"Election season is heating up again, lots of debates coming.",0,,,"Unrelated post, no company/stock reference"
+102,The local school is hosting a big fundraiser next month.,0,,,"Unrelated post, no company/stock reference"
+103,Traffic was brutal on the highway this morning.,0,,,"Unrelated post, no company/stock reference"
+104,"Cooking a big family recipe tonight, smells amazing already.",0,,,"Unrelated post, no company/stock reference"
+105,"Just adopted a new puppy, he's already the best.",0,,,"Unrelated post, no company/stock reference"
+106,The concert last night was absolutely incredible.,0,,,"Unrelated post, no company/stock reference"
+107,Spent the day volunteering at the community center.,0,,,"Unrelated post, no company/stock reference"
+108,"The football season opener is this weekend, can't wait.",0,,,"Unrelated post, no company/stock reference"
+109,"Finally finished painting the house, looks so much better.",0,,,"Unrelated post, no company/stock reference"
+110,"Grabbed coffee with an old friend this morning, great catch up.",0,,,"Unrelated post, no company/stock reference"
+111,The garden is finally starting to bloom after all that rain.,0,,,"Unrelated post, no company/stock reference"
+112,Watched a documentary about space exploration last night.,0,,,"Unrelated post, no company/stock reference"
+113,The farmers market downtown had amazing produce today.,0,,,"Unrelated post, no company/stock reference"
+114,"Comparing $TSLA and $F right now, hard to decide which to buy more of.",1,TSLA|F,,Two clear ticker mentions in one post
+115,"Both $AAPL and $MSFT reported earnings this week, big day for tech.",1,AAPL|MSFT,,Two clear ticker mentions in one post
+116,Watching $NVDA and $AMD closely as chip demand keeps rising.,1,NVDA|AMD,,Two clear ticker mentions in one post
+117,$KO and $PEP both raised prices again this quarter.,1,KO|PEP,,Two clear ticker mentions in one post
+118,Torn between $BA and $DIS for a new position this month.,1,BA|DIS,,Two clear ticker mentions in one post
+119,This platform just hit a new record for daily active users.,1,DJT,,Describing specific metric record for public company: could feasibly drive investment interest
+120,So proud of how far this platform has come since launch.,0,,,Generic platform commentary: no market relevence
+121,"The app just rolled out a big update, works so much smoother now.",0,,,Generic platform commentary: no market relevence
+122,More people are joining this platform every single day.,1,,,Describing specific metric improvement for public company: could feasibly drive investment interest
+123,"Bitcoin had a wild swing again today, up and down all week.",0,,,"Bitcoin is a cryptocurrency, not a company/ticker under this assignment's 'stock' scope - reconsider if you want to broaden scope to crypto-adjacent tickers like IBIT"
+124,Crypto twitter is buzzing about the latest rally.,0,,,"Generic crypto commentary, no specific instrument named"
+125,Everyone on my feed is talking about the next big crypto coin.,0,,,"Generic crypto commentary, no specific instrument named"
