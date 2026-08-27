@@ -1,0 +1,29 @@
+Demo: live poll -> detect -> alert run
+Channel: Discord webhook
+Poll interval: 5s
+Method: agent initialized, then one post published via curl, then 8 posts
+replayed via load_test_posts.py
+
+2026-08-27 01:43:56,669 INFO     __main__: Post 1000 queued for alerting (tickers=['AMD', 'INTC'] companies=['Advanced Micro Devices', 'Intel'])
+2026-08-27 01:43:56,931 INFO     __main__: Alert delivered for post 1000. end-to-end latency=10.89s
+2026-08-27 01:44:01,938 INFO     __main__: Poll complete: 0 new post(s) found
+2026-08-27 01:44:06,967 INFO     __main__: Poll complete: 0 new post(s) found
+2026-08-27 01:44:11,995 INFO     __main__: Poll complete: 0 new post(s) found
+2026-08-27 01:44:17,011 INFO     __main__: Poll complete: 0 new post(s) found
+2026-08-27 01:44:22,043 INFO     __main__: Poll complete: 8 new post(s) found
+2026-08-27 01:44:22,056 INFO     __main__: Post 1001 queued for alerting (tickers=['MSFT'] companies=['Microsoft'])
+2026-08-27 01:44:22,069 INFO     __main__: Post 1002 queued for alerting (tickers=['DJT'] companies=['Trump Media & Technology Group'])
+2026-08-27 01:44:22,107 INFO     __main__: Post 1005 queued for alerting (tickers=['DJT'] companies=['Trump Media & Technology Group'])
+2026-08-27 01:44:22,120 INFO     __main__: Post 1006 queued for alerting (tickers=['GME'] companies=['GameStop'])
+2026-08-27 01:44:22,135 INFO     __main__: Post 1007 queued for alerting (tickers=['BYDDF', 'F', 'RIVN', 'TSLA'] companies=['BYD Company', 'Ford Motor Company', 'Rivian', 'Tesla'])
+2026-08-27 01:44:22,150 INFO     __main__: Post 1008 queued for alerting (tickers=['GME', 'GOOGL', 'NFLX', 'WBD'] companies=['Alphabet', 'GameStop', 'Netflix', 'Warner Bros. Discovery'])
+2026-08-27 01:44:23,705 INFO     __main__: Alert delivered for post 1001. end-to-end latency=6.43s
+2026-08-27 01:44:23,921 INFO     __main__: Alert delivered for post 1002. end-to-end latency=6.44s
+2026-08-27 01:44:24,194 INFO     __main__: Alert delivered for post 1005. end-to-end latency=6.07s
+2026-08-27 01:44:24,416 INFO     __main__: Alert delivered for post 1006. end-to-end latency=6.09s
+2026-08-27 01:44:24,646 INFO     __main__: Alert delivered for post 1007. end-to-end latency=6.10s
+2026-08-27 01:44:24,906 INFO     __main__: Alert delivered for post 1008. end-to-end latency=6.15s
+
+Note: 8 posts published, 6 alerted, 2 correctly filtered as non-stock-related
+(posts 1003 and 1004 are not present above because detect() correctly
+returned is_stock_related=False for them).
