@@ -1,0 +1,10 @@
+[  
+  {"id": "1", "created_at": "2026-07-26T12:00:00Z", "account": {"username": "demo_user"}, "content": "$MSFT cloud growth keeps surprising everyone."},
+  {"id": "2", "created_at": "2026-07-26T18:00:00Z", "account": {"username": "demo_user"}, "content": "Sold half my $DJT position this morning."},
+  {"id": "3", "created_at": "2026-08-18T00:00:00Z", "account": {"username": "demo_user"}, "content": "Working on some home renovation projects this weekend."},
+  {"id": "4", "created_at": "2026-08-18T06:00:00Z", "account": {"username": "demo_user"}, "content": "The kids had a blast at the amusement park today."},
+  {"id": "5", "created_at": "2026-08-03T12:00:00Z", "account": {"username": "demo_user"}, "content": "Trump Media had a rough week in the markets."},
+  {"id": "6", "created_at": "2026-08-03T18:00:00Z", "account": {"username": "demo_user"}, "content": "GameStop fans are still holding strong apparently."},
+  {"id": "7", "created_at": "2026-08-04T00:00:00Z", "account": {"username": "demo_user"}, "content": "The electric car company just posted record deliveries."},
+  {"id": "8", "created_at": "2026-08-04T06:00:00Z", "account": {"username": "demo_user"}, "content": "That streaming giant everyone loves just raised prices again."}
+]
