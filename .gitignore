@@ -31,3 +31,7 @@ hf_cache/
 .DS_Store
 .idea/
 .vscode/
+
+# System files
+agent_state.json
+data/posts.json
