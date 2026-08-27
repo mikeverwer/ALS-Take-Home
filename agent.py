@@ -171,6 +171,7 @@ class Agent:
         self.state.save(self.state_path)  # persist the heartbeat timestamp promptly
  
         new_posts = self._filter_and_sort_new(posts)
+        logger.info("Poll complete: %d new post(s) found", len(new_posts))
         for post in new_posts:
             self._process_post(post)
             self.state.save(self.state_path)  # incremental save per post, not just at the end
@@ -301,7 +302,10 @@ class Agent:
 def build_arg_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Truth Social stock-mention alert agent")
     p.add_argument("--base-url", default="http://127.0.0.1:8000")
-    p.add_argument("--account", default="demo_user")
+    p.add_argument("--account", default="demo_user",
+                help="account to monitor via the mock source. For production, "
+                     "TruthSocialSource defaults to account_handle='realDonaldTrump' "
+                     "instead — see sources.py.")
     p.add_argument("--poll-interval", type=float, default=10.0, help="seconds between polls")
     p.add_argument("--flush-interval", type=float, default=None,
                     help="seconds between retrying undelivered alerts; defaults to --poll-interval "
