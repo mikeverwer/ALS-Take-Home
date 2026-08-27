@@ -18,7 +18,6 @@ import argparse
 import json
 import logging
 import os
-import re
 import sys
 import time
 from dataclasses import dataclass, field, asdict
@@ -35,42 +34,9 @@ from alert_channels import (
     DiscordWebhookAlertChannel, 
     send_with_retry
 )
+from detector import detect
  
 logger = logging.getLogger(__name__)
- 
- 
-# --------------------------------------------------------------------------
-# Detection (Part 2 hook)
-# --------------------------------------------------------------------------
- 
-@dataclass
-class DetectionResult:
-    is_stock_related: bool
-    tickers: list[str] = field(default_factory=list)
-    companies: list[str] = field(default_factory=list)
-    method: str = "unknown"
- 
- 
-def _placeholder_detector(text: str) -> DetectionResult:
-    """
-    TEMPORARY stand-in for Part 2's real detector.
- 
-    Only catches an explicit $TICKER pattern. No company-name resolution,
-    no false-positive handling (ticker ambiguity, "apple" the fruit, etc).
-    This exists so Part 1 + Part 3 are demoable end-to-end before Part 2
-    lands. Replace with a call into the real detector module, e.g.:
- 
-        from detector import detect
-        detection = detect(text)
-    """
-    tickers = re.findall(r"\$([A-Za-z]{1,5})\b", text)
-    tickers = [t.upper() for t in tickers]
-    return DetectionResult(
-        is_stock_related=bool(tickers),
-        tickers=tickers,
-        companies=[],
-        method="placeholder-regex",
-    )
  
  
 # --------------------------------------------------------------------------
@@ -87,11 +53,19 @@ class AgentState:
  
     @classmethod
     def load(cls, path: Path) -> "AgentState":
-        if not path.exists():
+        if not path.exists() or path.stat().st_size == 0:
             return cls()
-        with open(path, "r") as f:
-            data = json.load(f)
-        return cls(**data)
+        try:
+            with open(path, "r") as f:
+                data = json.load(f)
+            return cls(**data)
+        except (json.JSONDecodeError, TypeError) as e:
+            logger.warning(
+                "State file %s is present but unreadable (%s) - starting "
+                "from fresh state instead of crashing.",
+                path, e,
+            )
+            return cls()
  
     def save(self, path: Path) -> None:
         # atomic write so a crash mid-write can't corrupt state
@@ -200,7 +174,7 @@ class Agent:
         """
         self.state.last_new_post_at = datetime.now(timezone.utc).isoformat()
 
-        detection = _placeholder_detector(post["content"])  # TODO: swap for Part 2 detector
+        detection = detect(post["content"])
 
         already_alerted = post["id"] in self.state.alerted_ids
         already_pending = any(p["post_id"] == post["id"] for p in self.state.pending_alerts)
@@ -216,8 +190,8 @@ class Agent:
             self.state.pending_alerts.append(asdict(alert))
             logger.info("Post %s queued for alerting (tickers=%s companies=%s)", post["id"], detection.tickers, detection.companies)
 
-        # advance the cursor once detection has run, regardless of delivery —
-        # delivery is now the pending queue's problem, not this method's.
+        # Advance the cursor once detection has run, regardless of delivery.
+        # Delivery is now pending queue's problem, not this method's.
         self.state.last_id = max(self.state.last_id or 0, post["id"])
 
     def _flush_pending_alerts(self) -> None:

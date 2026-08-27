@@ -5,7 +5,7 @@ post_id,content,is_stock_related,tickers,alt_candidates,notes
 4,"$BA has been struggling all year, still holding though.",1,BA,,Unambiguous - Ticker specified
 5,$AMZN prime day numbers looked solid this quarter.,1,AMZN,,Unambiguous - Ticker specified
 6,Anyone else watching $GME today? Wild volume.,1,GME,,Unambiguous - Ticker specified
-7,$MSFT cloud growth keeps surprising everyone.,1,MSTF,,Unambiguous - Ticker specified
+7,$MSFT cloud growth keeps surprising everyone.,1,MSFT,,Unambiguous - Ticker specified
 8,Sold half my $DJT position this morning.,1,DJT,,Unambiguous - Ticker specified
 9,$F truck sales are up according to the latest report.,1,F,,Unambiguous - Ticker specified
 10,"$KO dividend increase announced today, nice to see.",1,KO,,Unambiguous - Ticker specified
@@ -25,7 +25,7 @@ post_id,content,is_stock_related,tickers,alt_candidates,notes
 24,GME short interest is climbing again.,1,GME,,Unambiguous - Ticker specified (without $)
 25,KO announced a new flavor launching in stores soon.,1,KO,,Unambiguous - Ticker specified (without $)
 26,Tesla just opened a new factory overseas.,1,TSLA,,Unambiguous - Company name mentioned
-27,Boeing announced layoffs in their commercial division.,1,BO,,Unambiguous - Company name mentioned
+27,Boeing announced layoffs in their commercial division.,1,BA,,Unambiguous - Company name mentioned
 28,Apple Inc. is facing another lawsuit over patent claims.,1,AAPL,,Unambiguous - Company name mentioned
 29,Amazon is expanding same-day delivery to more cities.,1,AMZN,,Unambiguous - Company name mentioned
 30,Microsoft is investing heavily in AI infrastructure.,1,MSFT,,Unambiguous - Company name mentioned
@@ -43,12 +43,12 @@ post_id,content,is_stock_related,tickers,alt_candidates,notes
 42,That streaming giant everyone loves just raised prices again.,1,NFLX,WBD|DIS|AMZN,"Ambiguous - Clearly about a stock but NFLX is a best guess. Could plausibly be HBO Max (WBD), Disney+ (DIS), Amazon Prime (AMZN)"
 43,My social media company had record engagement this month.,1,DJT,,"Given the user is meant to be realDonaldTrump, high probability of referencing DJT"
 44,The search engine giant is under new antitrust scrutiny.,1,GOOGL,MSFT,Ambiguous - Could be MSFT
-45,The plane maker is dealing with more quality control issues.,1,BO,AIR,"Ambiguous - Could easily mean Airbus, but Boeing is more likely since it is an American company"
+45,The plane maker is dealing with more quality control issues.,1,BA,AIR,"Ambiguous - Could easily mean Airbus, but Boeing is more likely since it is an American company"
 46,The coffee chain on every corner just announced new stores.,1,SBUX,,Ambiguous but high probability
 47,The soda company with the polar bear ads had a great quarter.,1,KO,,Unambiguous - Clear implication
 48,The smartphone maker everyone copies is releasing something new.,1,AAPL,,"Ambiguous - Best guess, could be any smartphone company, eg: SSNLF (Samsung)"
 49,The truck company from Detroit just posted their numbers.,1,F,,Unambiguous - Clear implication
-50,The chip maker behind all these AI graphics cards is booming.,1,NVDA,,Unambiguous - Clear implication
+50,The chip maker behind all these AI graphics cards is booming.,1,NVDA|AMD|TSM,,Unambiguous - Clear implication
 51,"A great day for the team, everyone worked so hard.",0,,,Common word 'a' overlaps with ticker A (Agilent) but plainly non-stock context
 52,IT was a total disaster from start to finish.,0,,,Common word 'it' overlaps with ticker IT (Gartner) but plainly non-stock context
 53,"ON second thought, maybe I should reconsider the plan.",0,,,Common word 'on' overlaps with ticker ON (ON Semiconductor) but plainly non-stock context
@@ -120,7 +120,7 @@ post_id,content,is_stock_related,tickers,alt_candidates,notes
 119,This platform just hit a new record for daily active users.,1,DJT,,Describing specific metric record for public company: could feasibly drive investment interest
 120,So proud of how far this platform has come since launch.,0,,,Generic platform commentary: no market relevence
 121,"The app just rolled out a big update, works so much smoother now.",0,,,Generic platform commentary: no market relevence
-122,More people are joining this platform every single day.,1,,,Describing specific metric improvement for public company: could feasibly drive investment interest
+122,More people are joining this platform every single day.,1,DJT,,Describing specific metric improvement for public company: could feasibly drive investment interest
 123,"Bitcoin had a wild swing again today, up and down all week.",0,,,"Bitcoin is a cryptocurrency, not a company/ticker under this assignment's 'stock' scope - reconsider if you want to broaden scope to crypto-adjacent tickers like IBIT"
 124,Crypto twitter is buzzing about the latest rally.,0,,,"Generic crypto commentary, no specific instrument named"
 125,Everyone on my feed is talking about the next big crypto coin.,0,,,"Generic crypto commentary, no specific instrument named"
